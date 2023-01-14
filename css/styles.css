@@ -1,0 +1,26 @@
+body {
+  background-color: rgba(59,60,54);
+  color:azure;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;'
+}
+
+img {
+  width: 50%;
+  float: right;
+  border-radius: 7px;
+}
+
+h1 {
+  padding: 40px;
+}
+
+.hello {
+  padding: 40px;
+  margin: 10px;
+  border: 2px solid olive;
+  border-radius: 7px;
+}
+
+.row-1 {
+  
+}
