@@ -10,6 +10,7 @@ img {
   width: 50%;
   float: right;
   border-radius: 7px;
+  margin: auto;
 }
 
 a {
@@ -17,13 +18,25 @@ a {
   text-align: center;
   color: olive;
   font-size: larger;
+  margin: 10px;
+  padding: 15px;
+}
+
+.contact {
+  margin: 10px;
+  padding: 10px;
 }
 
 .hello a {
-  padding: 10px;
+  padding: 20px;
   margin: 10px;
   border: 2px solid lavender;
-  border-radius: 20px;
+  border-radius: 35px;
+}
+
+.hello p {
+  padding: 10px;
+  margin: 10px;
 }
 
 a:hover {
@@ -43,6 +56,7 @@ h2 {
   padding: 30px;
   color: rgba(255,127,80);
   text-align: center;
+  box-sizing: border-box;
 }
 
 .hello {
@@ -55,20 +69,90 @@ h2 {
 .row-1 {
   width: 50%;
   float: left;
-  padding: 10px;
-  margin: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-sizing: border-box;
 }
 .row-2 {
   width: 50%;
   float: left;
   position: relative;
-  top: -50px;
-  padding: 10px;
-  margin-top: -50px;
-  margin: 5px;
-  
+  padding: 20px;
+  margin: 10px;
+  box-sizing: border-box;
 }
 
 h3 {
-  text-align: center;
+  width: 40%;
+  margin: 50px;
+  padding: 30px;
+  border: 1px dotted rgba(140,157,173);
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.lang {
+  color: rgba(140,157,173);
+}
+
+
+.About-Me{
+  margin: 30px;
+  padding: 20px;
+  display: block;
+}
+.About-Me h2 {
+  padding: 30px;
+  margin: 30px;
+  float: left;
+  display:block;
+  box-sizing: border-box;
+  font-size:xx-large;
+  background-color: rgba(140,157,173,0.5);
+  border-radius: 7px;
+}
+
+.About-Me h3 {
+  border: none;
+  color: rgb(245,165,183);
+  border-bottom: 1px dotted lavender;
+  width: 30%;
+  
+}
+
+.About-Me div {
+  width: 30%;
+}
+
+@media screen and (min-width:200px) and (max-width: 800px) {
+  
+  .hello a {
+    font-size: medium;
+    display:block;
+    border: none;
+  }
+  
+  .About-Me {
+    display: block;
+    margin: auto;
+    float: none;
+  }
+
+  .About-Me h3 {
+    width: 60%;
+  }
+
+  .About-Me div{
+    display: block;
+    margin: auto;
+    float: none;
+    width: 80%
+  }
+  .About-Me img {
+    margin: auto;
+    display: block;
+    float: none;
+  }
+
+
 }
