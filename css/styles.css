@@ -2,6 +2,8 @@ body {
   background-color: rgba(59,60,54);
   color:azure;
   font-family: Tahoma, Geneva, Verdana, sans-serif;'
+  margin: 10px;
+  padding: 10px;
 }
 
 img {
@@ -10,8 +12,37 @@ img {
   border-radius: 7px;
 }
 
+a {
+  text-decoration: none;
+  text-align: center;
+  color: olive;
+  font-size: larger;
+}
+
+.hello a {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid lavender;
+  border-radius: 20px;
+}
+
+a:hover {
+  color: rgba(255,127,80);
+}
+
+.hello h1 p {
+  margin: 10px;
+}
+
 h1 {
   padding: 40px;
+  text-align: center;
+}
+
+h2 {
+  padding: 30px;
+  color: rgba(255,127,80);
+  text-align: center;
 }
 
 .hello {
@@ -22,5 +53,22 @@ h1 {
 }
 
 .row-1 {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  margin: 5px;
+}
+.row-2 {
+  width: 50%;
+  float: left;
+  position: relative;
+  top: -50px;
+  padding: 10px;
+  margin-top: -50px;
+  margin: 5px;
   
+}
+
+h3 {
+  text-align: center;
 }
